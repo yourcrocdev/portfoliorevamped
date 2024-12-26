@@ -30,3 +30,22 @@ nav ul a {
 nav ul a:hover {
     color: #084e0c;
 }
+img,
+picture,
+video {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Alata', sans-serif;
+    color: #084e0c;
+}
+
+h1 {
+    font-family: 'Alata', sans-serif;
+    color: #084e0c;
+}
+h2 {
+    font-family: 'Alata', sans-serif;
+    color: #084e0c;
+}

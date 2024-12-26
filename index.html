@@ -1,25 +1,97 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-    <link href="stylesheet.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crocoko</title>
-    <link href="https://asset-publishing-service.cdeplatforms.com/sites/portfolio/images/favicon.ico" rel="icon" type="image/x-icon"><link href="https://asset-publishing-service.cdeplatforms.com/sites/portfolio/images/favicon.ico" rel="icon" type="image/x-icon">
-</head>
-<body>
 
+
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+
+    <link rel="icon" href="https://asset-publishing-service.cdeplatforms.com/sites/portfolio/images/favicon.ico" type="image/x-icon">
+
+
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <style>
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .small-image {
+            max-width: 150px;
+        }
+
+        .project-image {
+            max-width: 200px;
+        }
+
+
+        .intro-content,
+        .project-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .intro-content div, .project-content div {
+            flex: 1;
+            min-width: 300px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
 <header>
-    Crocoko
-    <nav>
+    <h1>Crocoko</h1>
+    <nav aria-label="Main Navigation">
         <ul>
-            <a href="#home">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
         </ul>
     </nav>
 </header>
+
+<main>
+    <section>
+        <div class="intro-content">
+            <div>
+                <h2>Hi, I'm Ryan.</h2>
+                <p style="font-style: italic; font-weight: bold;">Developer, Writer and Reader.</p>
+                <p>I'm Ryan. I develop, read, and write—all while walking my dog along areas of the UK. You can view more about me below.</p>
+            </div>
+            <div>
+                <img src="https://asset-publishing-service.cdeplatforms.com/sites/portfolio/images/static-content-zeva.png"
+                     alt="My dog, Zeva."
+                     class="small-image">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="project-content">
+            <div>
+                <h2>Modern Graphic Designer</h2>
+                <p>A mockup I did for Hack Club's Arcade 2024:</p>
+            </div>
+            <div>
+                <img src="https://asset-publishing-service.cdeplatforms.com/sites/portfolio/images/Homepagewaggo-portrait.png"
+                     alt="Waggo App 2024 Mockup"
+                     class="project-image">
+            </div>
+        </div>
+    </section>
+</main>
 </body>
+
 </html>
